@@ -1,0 +1,40 @@
+body {
+  font-family: 'Oswald', sans-serif;
+}
+.content {
+  position: relative;
+  top: 40px;
+}
+.header {
+  background-image: url("https://www.ehapi.com/ae/wp-content/uploads/2015/07/Web-Development.jpg?id=1458");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: auto;
+  text-align: center;
+}
+header h1 {
+  color: #fff;
+  text-shadow: 3px 2px 3px #222;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .header-title h1{
+    margin-top: 95px;
+  }
+}
+@media (min-width: 992px) {
+  .header-title h1{
+    margin-top: 120px;
+  }
+}
+.header img {
+  margin: auto;
+  padding: 20px;
+}
+.page-about {
+  width: 100%;
+  min-height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
