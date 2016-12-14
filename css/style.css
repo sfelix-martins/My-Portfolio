@@ -37,7 +37,6 @@ header h1, h2 {
   }
 }
 .header img {
-  border-radius: 50%;
   border: 5px solid #333;
 }
 .page-about {
@@ -46,9 +45,22 @@ header h1, h2 {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-
 .page-about p {
   text-align: justify;
   font-size: 20px;
   margin-bottom: 30px;
 }
+.page-portfolio h1 {
+  margin-top: 30px;
+}
+.carousel {
+  margin: 15px auto;
+  max-width: 600px;
+  max-height: 400px;
+}
+@media (min-width: 768px){
+  .carousel {
+    margin: 40px auto;
+  }
+}
+
