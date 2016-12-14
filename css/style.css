@@ -5,6 +5,7 @@ body {
   position: relative;
   top: 50px;
 }
+
 .header {
   background-image: url("../img/header.jpg");
   background-size: cover;
@@ -28,12 +29,12 @@ header h1, h2 {
 
 @media (min-width: 768px) and (max-width: 991px) {
   .header-title h1{
-    margin-top: 90px;
+    margin-top: 70px;
   }
 }
 @media (min-width: 992px) {
   .header-title h1{
-    margin-top: 130px;
+    margin-top: 100px;
   }
 }
 .header img {
@@ -49,32 +50,52 @@ header h1, h2 {
 }
 .page-about p {
   text-align: justify;
-  font-size: 20px;
+  font-size: 22px;
   margin-bottom: 40px;
 }
 .about-hobbies h1 {
+  color: #fff;
   text-shadow: 2px 2px 2px #222;
-}
-.page-portfolio h1 {
-  margin-top: 30px;
-}
-.curriculum {
 }
 .about-hobbies {
   background-image: url("../img/photo-hobby.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 400px;
+  padding-top: 20px;
 }
+.about-hobbies p {
+  text-align: justify;
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(255,255,255,0.5);
+}
+.page-portfolio h1 {
+  margin-top: 40px;
+}
+.curriculum {
+}
+
 .carousel {
   margin: 15px auto;
-  max-width: 600px;
-  max-height: 400px;
+  max-width: 300px;
+  max-height: 250px;
 }
 @media (min-width: 768px){
   .carousel {
     margin: 40px auto;
   }
 }
-
+.page-contact {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.social {
+  padding: 10px;
+}
+.social img {
+  margin: 10px;
+}
